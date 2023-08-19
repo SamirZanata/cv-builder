@@ -1,0 +1,16 @@
+{
+  "name": "cv-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.37.13",
+    "express": "^4.18.2"
+  }
+}

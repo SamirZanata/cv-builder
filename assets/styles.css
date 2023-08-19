@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Backgroun-cv-builder.jpg);
+    background-size: cover;
+}
+
+.all {
+    position: relative;
+    width: 90%;
+    height: 90%;
+    margin: 5vh;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+    border: 1PX SOLID red;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: aliceblue;
+}
+
+.eu-sam {
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.first-class {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 2vh 0 2vh 0;
+}
+
+.name input {
+    border: 1PX SOLID red;
+    width: 30vw;
+    height: 3vh;
+    border-radius: 20px;
+    margin: 0 1vh 0 0;
+}
+
+.email input {
+    border: 1PX SOLID red;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 1vh 0 0;
+}
+
+.tel input {
+    border: 1PX SOLID red;
+    width: 14vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 1vh 0 0;
+}
+
+.linkedin input {
+    border: 1PX SOLID red;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 1vh 0 0;
+}
+
+.adress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#street {
+    border: 1PX SOLID red;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+#number {
+    border: 1PX SOLID red;
+    width: 5vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+#neighbothood {
+    border: 1PX SOLID red;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+#estado {
+    border: 1PX SOLID red;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+#city {
+    border: 1PX SOLID red;
+    width: 20vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+#abilities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:2vh 0 2vh 0;
+}
+
+#abilities a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    padding: 0 1vw 0 1vw;
+}
+
+.habilidade input {
+    border: 1PX SOLID red;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 25px;
+    margin: 0 2vh 0 2vh;
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+}
+
+#abilities img {
+    width: 2vh;
+    margin-left: 1vh;
+}
+
+#add-abilities {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
+}
+
+#experiencias{
+    margin:2vh 0 2vh 0;
+}
+
+#experiencias a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    padding: 0 1vw 0 1vw;
+}
+
+.experience{
+    margin:2vh 0 2vh 0;
+}
+
+
+#add-experience {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 15vh;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
+}
+
+#experiencias img {
+    width: 2vh;
+    margin-left: 1vh;
+}
+
+.experience-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    margin-top: 1vh;
+    
+}
+
+.experience-content input{
+    width: 50vw;
+    height: 30vh;
+}
+
+
+#educacao{
+    margin:2vh 0 2vh 0;
+}
+
+#educacao a {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    padding: 0 1vw 0 1vw;
+
+}
+
+.education{
+    margin-top: 2vh;
+    border: 1px red solid;
+    padding: 0.5vh;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+#educacao img {
+    width: 2vh;
+    margin-left: 2.6vh;
+
+}
+
+#add-education {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
+    width: 15vh;
+}
+
+#extra-class{
+    margin:2vh 0 2vh 0;
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#add-extra {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
+    width: 15vh;
+}
+
+#extra-class a {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    padding: 0 1vw 0 1vw;
+
+}
+
+#extra-class img {
+    width: 2vh;
+    margin-left: 5.3vh;
+
+}
+
+#add-extra img {
+    width: 2vh;
+}
+
+
+.curso-extra {
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+#languages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#languages a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 15vh;
+    padding: 0 1vw 0 1vw;
+}
+
+
+.idioma select {
+    margin: 1vh 1vh 0 0;
+}
+
+.idioma {
+    display: flex;
+    align-items: center;
+}
+
+.idioma img {
+    width: 2vh;
+}
+
+#add-language {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
+    width: 15vh;
+}
+
+#add-language img {
+    width: 2vh;
+    margin: left 4.7vh !important;
+}
+.language-button{
+    margin-left: 4.5vh;
+}

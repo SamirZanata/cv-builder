@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Builder</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="welcome">
+            <div class="about-cv">
+                <h1>CV Builder</h1>
+                <h2> O CV Builder é uma ferramenta online de geração de Curriculos</h2>
+            </div>
+
+            <div class="about-me">
+                <img class="eu-sam" src="./assets/Eu.jpeg" alt="me.img">
+                <p>Olá, eu sou SamZ, um apaixonado desenvolvedor de 25 anos de idade. Cansado de gastar tempo
+                    atualizando
+                    currículos repetidamente? Se sim, você veio ao lugar certo! Bem-vindo ao CV Builder. <br>
+                    Aqui a criação do seu currículo se torna rápida e prática. Deixe-me ajudar você a destacar suas
+                    habilidades e conquistas de maneira eficiente. Vamos construir juntos o seu currículo de
+                    destaque?Fique
+                    a vontade para utilizar quantas
+                    vezes quiser, é gratuito</p>
+            </div>
+        </div>
+        <form action="enviar-dados" method="post">
+
+            <div class="first-class">
+                <div class="name">
+                    <label for="name">Nome completo</label>
+                    <input type="text" name="name" placeholder="   Escxreva seu nome completo">
+                </div>
+                <div class="email">
+                    <label for="email">E-mail de contato</label>
+                    <input type="email" name="email" placeholder="   Escreva seu e-mail">
+                </div>
+                <div class="tel">
+                    <label for="tel">Telefone de contato</label>
+                    <input type="tel" name="tel" pattern="[0-9]{10,}" placeholder="   Escreva os eu telefone">
+                </div>
+                <div class="linkedin">
+                    <label for="linkedin">Perfil do LinkedIn:</label>
+                    <input type="text" id="linkedin" name="linkedin"
+                        placeholder="   https://www.linkedin.com/in/seu_perfil">
+                </div>
+            </div>
+            <div class="adress">
+                <label for="street">Nome da Rua</label>
+                <input type="text" id="street" name="street" placeholder="   Nome da Rua">
+                <label for="number">Número</label>
+                <input type="text" id="number" name="number" placeholder="   Número">
+                <label for="neighbothood">Bairro</label>
+                <input type="text" id="neighbothood" name="neighbothood" placeholder="   Bairro">
+                <label for="estado">Estado</label>
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <label>Cidade</label>
+                <input type="text" id="city" name="city" placeholder="   Cidade">
+
+            </div>
+            <div id="abilities">
+
+                <a href="#" id="add-abilities">
+                    <p>Habilidades</p>
+                    <img class="teste-button" src="./assets/Addd.svg" alt="">
+                </a>
+            </div>
+            <div id="experiencias">
+                <a href="#" id="add-experience">
+                    <p>Experiencia</p>
+                    <img class="teste-button" src="./assets/Addd.svg" alt="">
+                    
+                </a>
+            </div>
+            <div id="educacao">
+                <a href="#" id="add-education">
+                    <p>Educação</p>
+                    <img class="extra-button" src="./assets/Addd.svg" alt="">
+                </a>
+            </div>
+            <div id="extra-class">
+                <a href="#" id="add-extra">
+                    <p>Curso </p>
+                    <img class="extra-button" src="./assets/Addd.svg" alt="">
+                </a>
+            </div>
+            <div id="languages">
+                <a href="#" id="add-language">
+                    <p>Idioma </p>
+                    <img class="language-button" src="./assets/Addd.svg" alt="">
+                </a>
+            </div>
+
+        </form>
+
+        <script src="./scripts.js"></script>
+    </div>
+</body>
+
+</html>
